@@ -1,31 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  margin: 5px;
+  padding: 3px;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 25px;
 }
 
-.heart {
-  color: #ff0000;
+.txthamburger:hover {
+  background-color: white;
+  color: black;
 }
 
-.small {
-  font-size: 0.75rem;
+h1 {
+  font-size: 5vh;
+}
+
+p {
+  font-size: 25px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+header {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+  font-size: 3vh;
+  height: 6vh;
+  width: 175px;
+  border: none;
+  box-shadow: 5px;
+  background-color: rgb(171, 166, 166, .45);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+
+.headerList {
+  text-align: center;
+  
+}
+
+
+.word-guess {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  border-radius: 30px;
+  height: 79vh;
+  border: 1000px solid black;
+}
+
+.headerList {
+  padding: 0px;
+}
+
+
+.word-guess {
+ border: red 50px;
+}
+
+.letters {
+  font-size: 40px;
+  letter-spacing: 10px;
 }
